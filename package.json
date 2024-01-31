@@ -1,0 +1,23 @@
+{
+  "name": "@toridoriv/cliffy",
+  "version": "0.1.0",
+  "description": "The framework for building interactive command line tools with Deno, now for Node.",
+  "main": "./lib/mod.js",
+  "type": "module",
+  "files": ["./lib"],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toridoriv/cliffy.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/toridoriv/cliffy/issues"
+  },
+  "dependencies": {
+    "@deno/shim-deno": "~0.18.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "picocolors": "^1.0.0"
+  }
+}
